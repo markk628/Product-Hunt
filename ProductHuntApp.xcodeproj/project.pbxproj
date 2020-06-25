@@ -15,6 +15,8 @@
 		FE41397E24A318F500EC9D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE41397C24A318F500EC9D6E /* LaunchScreen.storyboard */; };
 		FE41398624A3213C00EC9D6E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41398524A3213C00EC9D6E /* Post.swift */; };
 		FE741F2824A543AB0059CA4F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741F2724A543AB0059CA4F /* NetworkManager.swift */; };
+		FE741F2A24A54A740059CA4F /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741F2924A54A740059CA4F /* CommentsViewController.swift */; };
+		FE741F2C24A54C3F0059CA4F /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE741F2B24A54C3F0059CA4F /* CommentTableViewCell.swift */; };
 		FEAB1F7724A46958001BA31E /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAB1F7624A46958001BA31E /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		FE41397F24A318F500EC9D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE41398524A3213C00EC9D6E /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FE741F2724A543AB0059CA4F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FE741F2924A54A740059CA4F /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		FE741F2B24A54C3F0059CA4F /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
 		FEAB1F7624A46958001BA31E /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,9 +69,11 @@
 				FE41397124A318F100EC9D6E /* AppDelegate.swift */,
 				FE41397324A318F100EC9D6E /* SceneDelegate.swift */,
 				FE41397524A318F100EC9D6E /* FeedViewController.swift */,
+				FE741F2924A54A740059CA4F /* CommentsViewController.swift */,
 				FE741F2724A543AB0059CA4F /* NetworkManager.swift */,
-				FE41397724A318F100EC9D6E /* Main.storyboard */,
 				FEAB1F7624A46958001BA31E /* PostTableViewCell.swift */,
+				FE741F2B24A54C3F0059CA4F /* CommentTableViewCell.swift */,
+				FE41397724A318F100EC9D6E /* Main.storyboard */,
 				FE41398524A3213C00EC9D6E /* Post.swift */,
 				FE41397A24A318F500EC9D6E /* Assets.xcassets */,
 				FE41397C24A318F500EC9D6E /* LaunchScreen.storyboard */,
@@ -149,6 +155,8 @@
 			files = (
 				FE741F2824A543AB0059CA4F /* NetworkManager.swift in Sources */,
 				FE41397624A318F100EC9D6E /* FeedViewController.swift in Sources */,
+				FE741F2A24A54A740059CA4F /* CommentsViewController.swift in Sources */,
+				FE741F2C24A54C3F0059CA4F /* CommentTableViewCell.swift in Sources */,
 				FE41397224A318F100EC9D6E /* AppDelegate.swift in Sources */,
 				FEAB1F7724A46958001BA31E /* PostTableViewCell.swift in Sources */,
 				FE41397424A318F100EC9D6E /* SceneDelegate.swift in Sources */,
