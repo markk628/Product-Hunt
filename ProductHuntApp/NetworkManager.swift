@@ -14,7 +14,7 @@ class NetworkManager {
     var baseURL = "https://api.producthunt.com/v1/"
     var token = "OoSLWuc-2zC3_oIhbjaZXEwORjM9J4qQb0LwiuAcNxw"
     
-    func getPost(completion: @escaping ([Post]) -> Void) {
+    func getPosts(completion: @escaping ([Post]) -> Void) {
         // API query
         let query = "posts/all?sort_by=votes_count&order=desc&search[featured]=true&per_page=20"
         // Adding the baseURL to it
