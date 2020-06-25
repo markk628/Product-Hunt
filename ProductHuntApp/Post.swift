@@ -11,7 +11,7 @@ import Foundation
 struct Post {
     let id: Int
     let name: String
-    let tagline: String
-    let votesCount: Int
     let commentsCount: Int
+    let votesCount: Int
+    let tagline: String
 }

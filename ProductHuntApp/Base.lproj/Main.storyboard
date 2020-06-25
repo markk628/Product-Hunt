@@ -19,7 +19,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postCell" id="GP4-dF-Feo">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="postCell" id="GP4-dF-Feo" customClass="PostTableViewCell" customModule="ProductHuntApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="250"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GP4-dF-Feo" id="x4u-S9-pLo">
@@ -86,6 +86,13 @@
                                                 <constraint firstItem="mXm-j9-M0n" firstAttribute="trailing" secondItem="x4u-S9-pLo" secondAttribute="trailingMargin" id="r3k-ra-TdJ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentsCount" destination="boi-94-g3q" id="WRC-ll-9L5"/>
+                                            <outlet property="imageOfPost" destination="a3p-bA-2IB" id="XBp-rm-fHg"/>
+                                            <outlet property="nameOfPost" destination="u4C-le-7eC" id="dnU-92-P1r"/>
+                                            <outlet property="taglineOfPost" destination="pjd-9u-bgL" id="Old-pz-3k0"/>
+                                            <outlet property="votesCount" destination="On4-kf-hXg" id="bNE-8l-rCr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
