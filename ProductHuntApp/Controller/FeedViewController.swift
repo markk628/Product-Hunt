@@ -6,6 +6,7 @@
 //  Copyright © 2020 Mark Kim. All rights reserved.
 //
 
+
 import UIKit
 
 class FeedViewController: UIViewController {
@@ -16,7 +17,7 @@ class FeedViewController: UIViewController {
 //        var meTube = Post(id: 0, name: "MeTube", commentsCount: 4, votesCount: 25, tagline: "Selfish youtube")
 //        var boogle = Post(id: 1, name: "Boogle", commentsCount: 50, votesCount: 1000, tagline: "Budget google")
 //        var meTunes = Post(id: 2, name: "meTunes", commentsCount: 590, votesCount: 25000, tagline: "Songs only for me")
-//        
+//
 //        return [meTube, boogle, meTunes]
 //    }()
     
@@ -80,4 +81,5 @@ extension FeedViewController: UITableViewDataSource, UITableViewDelegate {
         navigationController?.pushViewController(commentsView, animated: true)
     }
 }
+
 

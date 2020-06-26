@@ -28,7 +28,7 @@ class PostTableViewCell: UITableViewCell {
             updatePreviewImage()
         }
     }
-    
+        
     func updatePreviewImage() {
         guard let post = post else { return }
         imageOfPost.image = UIImage(named: "placeholder")
