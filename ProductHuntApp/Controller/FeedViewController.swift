@@ -37,12 +37,15 @@ class FeedViewController: UIViewController {
     }
     
     func updateFeed() {
-        networkManager.getPosts() { result in
-            self.posts = result
-        }
+       networkManager.getPosts() { result in
+           switch result {
+           case let .success(posts):
+             self.posts = posts
+           case let .failure(error):
+             print(error)
+           }
+       }
     }
-
-
 }
 
 extension FeedViewController: UITableViewDataSource, UITableViewDelegate {
@@ -73,7 +76,7 @@ extension FeedViewController: UITableViewDataSource, UITableViewDelegate {
             return
         }
         
-        commentsView.comments = ["kjaodfsdjf jdoifaj", "oiajdfoaj", "ioi.ioj io22memf."]
+        commentsView.postID = post.id
         navigationController?.pushViewController(commentsView, animated: true)
     }
 }
